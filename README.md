@@ -2,13 +2,13 @@
 
 The code repo for the paper "Learning a Spoof Pattern Generation Network with Identity Disentanglement for Semi-Supervised Cross-Domain Face Anti-Spoofing"
 
-The motivation of the proposed S2PLN method:
+**The network architecture of the proposed S2PLN method**:
+![S2PLN_framework.png](assert%2FS2PLN_framework.png)
 
+## **TODO** 
+- [ ] Release training and inference code.
+- [ ] Release pretrained models.
 
-## Table of Contents
-- [Congifuration Environment](##Congifuration Environment)
-- [Pre-processing](##Pre-processing)
-- [Training](##Training)
 
 ## Congifuration Environment
 - python 3.7 
@@ -32,8 +32,6 @@ To generate the data label list, you can run the following command:
 ```python
 python datalabel/generate_label.py
 ```
-
-## **Training** 
 
 
 ## Acknowledgments
