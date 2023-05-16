@@ -1,8 +1,8 @@
-# S2PLN
+# S<sup>2</sup>PLN
 
 The code repo for the paper "Learning a Spoof Pattern Generation Network with Identity Disentanglement for Semi-Supervised Cross-Domain Face Anti-Spoofing"
 
-**The network architecture of the proposed S2PLN method**:
+**The network architecture of the proposed S<sup>2</sup>PLN method**:
 ![S2PLN_framework.png](assert%2FS2PLN_framework.png)
 
 ## **TODO** 
