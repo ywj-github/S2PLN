@@ -5,7 +5,7 @@ import glob
 import random
 
 # change your data path
-data_dir = '/home/ywj/paper/DII_FAS/data/'
+data_dir = '/home/ywj/paper/S2PLN/data/'
 
 def msu_process():
     all_final_json = []
@@ -111,7 +111,7 @@ def casia_process():
     nolabel_path_list.sort()
 
     path_list = glob.glob(dataset_path + '**/*.jpg', recursive=True)
-    # /home/ywj/paper/DII_FAS/data/casia_224/0/HR_1/2.jpg
+    # /home/ywj/paper/S2PLN/data/casia_224/0/HR_1/2.jpg
     id_dict = {}
     m = 0
     for i in range(0, len(path_list), 2):
@@ -191,8 +191,8 @@ def replay_process():
 
     path_list = glob.glob(dataset_path + '**/*.jpg', recursive=True)
     path_list.sort()
-    # /home/ywj/paper/DII_FAS/data/replay_224/0/attack/hand/attack_highdef_client115_session01_highdef_photo_adverse/1.jpg
-    # /home/ywj/paper/DII_FAS/data/replay_224/0/real/client115_session01_webcam_authenticate_adverse_1/1.jpg
+    # /home/ywj/paper/S2PLN/data/replay_224/0/attack/hand/attack_highdef_client115_session01_highdef_photo_adverse/1.jpg
+    # /home/ywj/paper/S2PLN/data/replay_224/0/real/client115_session01_webcam_authenticate_adverse_1/1.jpg
     id_dict = {}
     m = 0
     for i in range(0, len(path_list), 2):
@@ -272,7 +272,7 @@ def oulu_process():
     nolabel_path_list.sort()
 
     path_list = glob.glob(dataset_path + '**/*.jpg', recursive=True)
-    # /home/ywj/paper/DII_FAS/data/oulu_224/0/1_1_55_1/1.jpg
+    # /home/ywj/paper/S2PLN/data/oulu_224/0/1_1_55_1/1.jpg
     path_list.sort()
     id_dict = {}
     m = 0

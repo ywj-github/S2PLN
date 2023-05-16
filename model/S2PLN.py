@@ -21,7 +21,7 @@ def resnet18(pretrained=False, **kwargs):
     """
     model = ResNet(BasicBlock, [2, 2, 2, 2], **kwargs)
     # change your path
-    model_path = '/home/ywj/paper/TIFS_FAS/pretrained_model/resnet18-5c106cde.pth'
+    model_path = '/home/ywj/paper/S2PLN/pretrained_model/resnet18-5c106cde.pth'
     if pretrained:
         model.load_state_dict(torch.load(model_path))
         print("loading model: ", model_path)
@@ -129,9 +129,9 @@ class DII_Generator(nn.Module):
         feature, outs = self.embedder(feature, outs, norm_flag)
         return feature, outs
 
-class DG_model(nn.Module):
+class S_model(nn.Module):
     def __init__(self, model):
-        super(DG_model, self).__init__()
+        super(S_model, self).__init__()
         if(model == 'resnet18'):
             self.backbone = Feature_Generator_ResNet18()
             self.embedder = Feature_Embedder_ResNet18()
@@ -148,7 +148,7 @@ class DG_model(nn.Module):
 
 if __name__ == '__main__':
     # x = Variable(torch.ones(6, 3, 224, 224))
-    # model = DG_model('resnet18')
+    # model = S_model('resnet18')
     # y, v, outs = model(x, True)
     # print(len(outs))
 
