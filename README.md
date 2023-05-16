@@ -33,7 +33,6 @@ To generate the data label list, you can run the following command:
 python datalabel/generate_label.py
 ```
 
-
 ## Acknowledgments
 We would like to express our gratitude to [SSDG](https://github.com/taylover-pei/SSDG-CVPR2020), which are of great help to our work.
 
