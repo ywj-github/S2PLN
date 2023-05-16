@@ -29,7 +29,7 @@ All video frames of the four datasets are pre-processed with the [MTCNN algorith
 
 ### **Label Generation**
 To generate the data label list, you can run the following command:
-```python
+```
 python datalabel/generate_label.py
 ```
 
