@@ -2,7 +2,7 @@
 
 The code repo for the paper "Learning a Spoof Pattern Generation Network with Identity Disentanglement for Semi-Supervised Cross-Domain Face Anti-Spoofing"
 
-The motivation of the proposed DBMNet method:
+The motivation of the proposed S2PLN method:
 
 
 ## Table of Contents
