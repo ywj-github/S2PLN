@@ -22,7 +22,7 @@ All video frames of the four datasets are pre-processed with the [MTCNN algorith
 ### **Label Generation** 
 
 ```python
-python generate_label.py
+python datalabel/generate_label.py
 ```
 
 ### **Training** 
